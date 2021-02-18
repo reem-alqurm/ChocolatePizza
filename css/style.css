@@ -1,0 +1,199 @@
+*{
+    box-sizing: border-box;
+}
+
+body{ 
+     padding: 30px 150px; 
+     margin: 5%;
+     width: 100%; 
+    
+ }
+#logo {
+    position: relative;
+    height:50px;
+}
+nav {
+    display: inline-block;
+    position:relative;
+    right: 0%;    
+}
+header div {
+    float: right;
+
+}
+.headertitle
+{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.headertitle h1{
+font-size: xx-large;
+font-family: "Oswald", sans-serif;
+font-weight: bold;
+color:black;
+}
+
+.hr1 {
+    background-image: url("https://raw.githubusercontent.com/LTUC/amman-201d14/main/class-10/lab-a/lab-assets/hr-img.png") ;
+    background-repeat: repeat;
+    height: 15px;
+    
+} 
+.hr2{
+   
+    
+    background-image: url("https://raw.githubusercontent.com/LTUC/amman-201d14/main/class-10/lab-a/lab-assets/hr-img.png") ;
+    background-repeat: repeat;
+    height: 15px;
+        
+    
+}
+.headertitle p{
+    font-variant: small-caps; 
+    font-family: "Oswald", sans-serif;
+    color: darkgray;
+    padding-top: 0.5%;
+    display: inline-block;
+}
+main div img {
+    float: right;
+}
+article img {
+    width: 100%;
+}
+span{
+    font-family: "Overpass", sans-serif;
+    font-size: small;
+    font-weight: bold;
+    color: darkgray;
+    float: right;
+}
+header h1{  
+        font-family: "Oswald", sans-serif; 
+        font-weight: bold; 
+        font-size: 43px;
+         position: relative;
+        left: 5%;
+        bottom: 10%;
+
+        
+    }
+header h3{
+      font-variant: small-caps;
+        font-family: "Overpass", sans-serif; 
+        letter-spacing: -1px; 
+        font-size: 14px; 
+        padding-left: 5px;
+    }
+.logos {
+    float: right;
+}
+article p {  
+    text-indent: 2em; 
+    margin-top: 20px;
+    margin-bottom: 20px; 
+    font-size: large;
+    font-weight: bold;
+    color: rgb(105, 101, 101);
+    font-family: 'Dosis', sans-serif;
+}
+
+
+.forms{
+    padding-top: 3%;   
+    background-image: url("https://raw.githubusercontent.com/LTUC/amman-201d14/main/class-10/lab-a/lab-assets/list-bg.png");
+    box-shadow: 0px 5px 5px rgb(157, 158, 160);
+    padding-bottom: 5%; 
+    margin-bottom: 2%;
+    
+}
+
+#firstform {
+    font-size: large;
+    font-weight: bold;
+    color: #9C5032;
+    font-family: 'Dosis', sans-serif;
+    position: relative;
+    left: 20%;
+    display:inline-block;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    
+}
+ 
+
+#secform{
+    font-size: large;
+    font-weight: bold;
+    color: #9C5032;
+    font-family: 'Dosis', sans-serif;
+    position: relative;
+    left: 30%;
+    display:inline-block;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+#line1 , #line2 {
+    text-decoration: line-through;
+
+}
+footer img{
+    position: relative;
+      bottom: 33px;
+    }
+main section {
+    clear: both;
+    display: inline-block;
+    width: 72%; 
+    margin-bottom: 60px;
+
+}
+main section img{
+    position: relative; 
+    bottom: 5px;
+    display: inline-block;
+}
+main section h2  {
+position: relative;    
+left : 100px;
+bottom : 50px;
+font-weight: bold;
+color: rgb(105, 101, 101);
+font-family: 'Dosis', sans-serif;
+}
+main section p {
+    position: relative;    
+    left : 100px;
+    bottom : 40px;
+    font-weight: bold;
+    color: rgb(105, 101, 101);
+    font-family: 'Dosis', sans-serif;
+    display: inline-block;
+    
+}
+main  button {
+    float: right;
+    background-color: #5C2E18;
+    font-variant: small-caps;  
+    font-family: "Overpass", sans-serif;  
+    letter-spacing: -1px;
+    font-size: 24px; 
+    padding: 10px 31px; 
+    color: whitesmoke;
+    position: relative;    
+    bottom: 0;
+    right: 50px;
+    top : 10px;   
+}
+footer img { 
+    position: relative;
+    left : 50%;
+
+}
+footer p {
+    font-weight: bold;
+    color: rgb(105, 101, 101);
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    
+}
